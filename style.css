@@ -1,0 +1,146 @@
+.b {
+    background-image: url("background.jpeg");
+    background-size: 100%;
+    background-position: 2px;
+}
+
+.i {
+    width: 118px;
+    margin-left: 37px;
+    margin-top: 14px;
+}
+
+.list1 {
+    list-style: none;
+    margin-left: 300px;
+    margin-top: -20px;
+
+}
+
+.item1 {
+
+    display: inline;
+    font-family: "Gotham";
+    color: white;
+    font-size: 14px;
+    margin-left: 30px;
+
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url(Gotham.woff2);
+}
+
+.list2 {
+
+    list-style: none;
+    margin-left: 1055px;
+    margin-top: -35px;
+}
+
+.p1 {
+    color: white;
+    font-size: 39px;
+    margin-left: 600px;
+    font-family: "Gotham";
+    font-weight: bold;
+}
+
+.p2 {
+    color: rgb(234, 234, 234);
+    font-size: 15px;
+    margin-left: 592px;
+    font-family: "Gotham";
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: -30px;
+
+}
+
+.list4 {
+    list-style: none;
+    margin-top: 350px;
+    margin-left: 350px;
+    font-family: "gotham";
+    font-size: 35px;
+    color: white;
+
+}
+
+
+.d1 {
+    width: 750px;
+    height: 80px;
+    background-color: none;
+    margin-left: 250px;
+    margin-top: 280px;
+
+}
+
+.list5 {
+
+    list-style: none;
+
+}
+
+.item2 {
+    display: inline-block;
+    margin-left: 70px;
+    text-align: center;
+
+}
+
+.d2 {
+    color: white;
+    font-size: 25px;
+    font-family: "gotham";
+    font-weight: bold;
+
+}
+
+.d3{
+    color: white;
+    font-size: 12px;
+    margin-top: 7px;
+    font-family: "gotham";
+}
+
+.item3{
+margin-top: -50px;
+margin-left: 550px;
+
+}
+
+.btn{
+    height: 42px ;
+    width: 203px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+    border-style:solid ;
+    border-width: 3px;
+    border-radius: 5px;
+
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.item1:hover{
+    cursor: pointer;
+    background-color: rgba(130, 130, 130, 0.3);
+    box-shadow: 0px 0px 0px 5px rgba(130, 130, 130, 0.3);
+border-radius: 1px;
+transition: 0.1s;
+
+
+
+}
